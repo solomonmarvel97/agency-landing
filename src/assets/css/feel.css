@@ -1,0 +1,24 @@
+.glass {
+    background: linear-gradient(
+            118.51deg,
+            rgba(255, 255, 255, 0.05) 3.99%,
+            rgba(255, 255, 255, 0) 111.18%
+    );
+    border: 1px solid rgba(255, 255, 255, 0.1) !important;
+    box-sizing: border-box;
+    border-radius: var(--border-radius) !important;
+}
+
+.anim:hover {
+    background: linear-gradient(
+            118.51deg,
+            rgba(255, 255, 255, 0.05) 3.99%,
+            rgba(255, 255, 255, 0) 111.18%);
+            -webkit-transform: scale(2); /* Saf3.1+, Chrome */
+            -moz-transform: scale(1.1); /* FF3.5+ */
+             -ms-transform: scale(1.1); /* IE9 */
+              -o-transform: scale(1.1); /* Opera 10.5+ */
+                 transform: scale(1.1);
+                 transition: all 0.3s;
+                 cursor: pointer;
+}

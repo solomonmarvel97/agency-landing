@@ -1,0 +1,17 @@
+:root {
+    --primary-color: #D97500;
+    --primary-tint: #e68c26;
+    --secondary-color: #313131;
+    --secondary-tint: #3a3a3a;
+    --acent: #ff9a16;
+    --success: #aef78e;
+    --warning: #f0a202;
+    --error: #f55536;
+    --danger: #2e4057;
+    --muted: #868686;
+    --disabled: #e1efe6;
+    --background: #f8f8f8;
+	--border-radius: 5px;
+    --font-source: "Segoe UI";
+    --font-raleway: "Segoe UI";
+}

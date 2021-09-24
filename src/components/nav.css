@@ -1,0 +1,28 @@
+nav {
+    height: 80px;
+    display: grid;
+    align-items: center;
+    position: relative;
+}
+
+nav .nav-container {
+    width: 85%;
+    margin: 0 auto;
+}
+
+.logo {
+    background-image: url('../images/logo.png');
+    width: auto;
+    height: 30px;
+    background-size: contain;
+    background-repeat:no-repeat
+}
+
+@media (max-width: 768px) {
+    .logo {
+        background-image: url('../images/logo-small.png');
+        width: auto;
+        height: 30px;
+        background-repeat:no-repeat
+    }
+}
