@@ -51,7 +51,7 @@ img {
 }
 
 .left-grid-content h1{
-	margin: 0;
+	margin: 70px 0 17px 0;
 	font-family: Segoe UI;
 	font-style: normal;
 	font-weight: bold;
@@ -67,7 +67,7 @@ img {
 	font-size: 23px;
 	line-height: 36px;
 	color: #000000;
-	margin: 0;
+	margin-bottom: 39px;
 }
 
 .left-grid-content div {
@@ -84,6 +84,7 @@ img {
 	display: grid;
 	place-items: center;
 	cursor: pointer;
+	margin-bottom: 69px;
 }
 
 /* Right Grid Content */
